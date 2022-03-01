@@ -1,11 +1,11 @@
-# 🛢 JetSwap Frontend
+# 🛢 BidzSwap Frontend
 
-This project contains the main features of the JetSwap application.
+This project contains the main features of the BidzSwap application.
 
 
 ## Overview
 
-Official frontend repo of [jetswap.finance](https://jetswap.finance). The #1 AMM and yield farm on BSC and Polygon.
+Official frontend repo of [BidzSwap.finance](https://BidzSwap.finance). The #1 AMM and yield farm on BSC and Polygon.
 
 
 ## To Run
@@ -23,23 +23,23 @@ The app will be running at http://localhost:3000/
 
 ## 1. Contract Deployment
 
-First of all, deploy JetswapFactory, MasterChef, WINGS PEB20 token and Pairs contracts.
+First of all, deploy BidzSwapFactory, MasterChef, WINGS PEB20 token and Pairs contracts.
 <br/><br/>
 
 
 ## 2. Deploy Subgraph
 
-Go to [Jetswap-subgraph](https://github.com/Smart-Cookie-Group/jetswap-subgraph) repo and follow the instruction there, after deploying subgraph proceed to step 3.
+Go to [BidzSwap-subgraph](https://github.com/Smart-Cookie-Group/jetswap-subgraph) repo and follow the instruction there, after deploying subgraph proceed to step 3.
 <br/><br/>
 
 ## 3. Deploy Info Portal at [info.jetswap.finance](https://info.jetswap.finance)
 
-Go to [Jetswap-info](https://github.com/Smart-Cookie-Group/jetswap-info) repo and follow the instruction there, after deploying subgraph proceed to step 4.
+Go to [BidzSwap-info](https://github.com/Smart-Cookie-Group/jetswap-info) repo and follow the instruction there, after deploying subgraph proceed to step 4.
 <br/><br/>
 
 ## 4. Deploy Exchange at [exchange.jetswap.finance](http://exchange.jetswap.finance/)
 
-Go to [Jetswap-exchange](https://github.com/Smart-Cookie-Group/jetswap-exchange) repo and follow the instruction there, after deploying subgraph proceed to step 5.
+Go to [BidzSwap-exchange](https://github.com/Smart-Cookie-Group/jetswap-exchange) repo and follow the instruction there, after deploying subgraph proceed to step 5.
 <br/><br/>
 
 ## 5. Deploy front-end repo at [jetswap.finance](https://jetswap.finance)
@@ -66,7 +66,7 @@ Go to ``` src/config/constants/pools.ts ``` and update the following pools addre
 <br/>
 
 ### 5.3. Update Farms in farms.ts
-Go to ``` src/config/constants/farms.ts ``` and update the each farm with its corresponding contract address addresses, update each lp with its JetswapPair contract address at chainID 56.
+Go to ``` src/config/constants/farms.ts ``` and update the each farm with its corresponding contract address addresses, update each lp with its BidzSwapPair contract address at chainID 56.
 <br/>
 
 ### 5.4. Update Subgraph link
